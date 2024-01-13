@@ -1,0 +1,15 @@
+<!DOCTYPE web-app >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RetrieveServlet</servlet-name>
+  	<display-name>RetrieveServlet</display-name>
+  	<description></description>
+  	<servlet-class>services.RetrieveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RetrieveServlet</servlet-name>
+  	<url-pattern>/RetrieveServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
